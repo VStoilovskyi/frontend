@@ -11,6 +11,6 @@ export class UserService {
 
   constructor(private http: HttpClient) { }
   userRegister(userDate): Observable<any> {
-    return this.http.post('http://127.0.0.1:8000/api/users/', userDate)
+    return this.http.post('https://stvadymback.herokuapp.com/api/users/', userDate)
   }
 }
