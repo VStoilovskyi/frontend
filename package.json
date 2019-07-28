@@ -1,9 +1,6 @@
 {
   "name": "stvadym",
   "version": "6.4.1",
-  "engines": {
-    "node": "10.15.1"
-  },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -48,5 +45,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
+  },
+  "engines": {
+    "node": "~10.15.1",
+    "npm": "~6.4.1"
   }
 }
